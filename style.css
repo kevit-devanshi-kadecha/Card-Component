@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000af;
+    color: #333333b2;
+}
+
+.card{
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 15px rgba(29, 24, 24, 0.74);
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    width: 450px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.hero-image {
+    width: 100%;
+    background-size: cover;
+    
+}
+.small-title{
+    color: rgba(230, 59, 36, 0.747);
+    font-size: 13px;
+}
+.card-text {
+   grid-area:text;
+   margin: 30px;
+}
+.card-text h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:#2e2c2c85;
+}
+.card-stats {
+    height: 100px;
+    display: grid;
+    grid-area: stats;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #d83d0ef3;
+}
+
+.card-stats .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+}
+
+.card-stats .social i{
+    font-size: 22px;
+}
+
+.card-stats .border{
+    border-left: 1px solid rgba(63, 56, 56, 0.342);
+    border-right: 1px solid rgba(63, 56, 56, 0.342);
+    border-top: 2px solid rgba(63, 56, 56, 0.342);;
+}
+.card-stats .stat-value{
+    font-variant-numeric: lining-nums;
+    color: #ffffffdc;
+    font-size: 30px;
+}
+.card-stats .stat-label{
+    font-family:sans-serif;
+    color:#ffffff75;
+}
+
+.sup-text {
+    font-size: 14px; /* Smaller size for the superscript */
+    vertical-align: super; /* Superscript positioning */
+    color: #ffffffdc; /* Match the color of the main text */
+}
